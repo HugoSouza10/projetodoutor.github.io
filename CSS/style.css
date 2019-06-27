@@ -681,7 +681,7 @@ span#medico_cadastrado{
 
 /*PARTE RESPONSIVA MOBILE*/
 
-@media  (min-width: 320px) and (max-width:425px) {
+@media(min-width:320px) and (max-width: 425px)  {
 
 
 
@@ -700,10 +700,11 @@ span#medico_cadastrado{
     }
 
     #agendar .infor_cadastro{
-        width: 381px;
+        max-width: 300px;
     }
     #agendar{
         margin: auto;
+        max-width: 300px;
     }
 
     /*ÁREA DO MENU*/
@@ -712,11 +713,11 @@ span#medico_cadastrado{
        margin-left: 180px;
     }
    .Menu{
-       margin-left: -304px;
+       margin-left: -340px;
    }
 
    .Menu_Mobile{
-        margin-left: 500px;
+        margin-left: 498px;
         display: flex;
         line-height: 80px;
         flex-direction: column;
@@ -785,6 +786,11 @@ span#medico_cadastrado{
         padding-bottom: 56px;
     }
 
+
+   .container_media2 img{
+         max-width: 163px;
+   }
+
     .container_nº2 h1{
         text-align: center;
     }
@@ -806,9 +812,33 @@ span#medico_cadastrado{
    #consulta .frase_banner{
       margin-top: 145px;
    }
+
+
+   /*ÁREA DO RODAPÉ*/
+
+   .Docway_foote_info{
+      max-width: 300px;
+   }
+
+   #faca_parte h1{
+      font-size: 15px;
+      line-height: 32px;
+   }
+
+   #faca_parte .Imagem_info{
+      margin-left: -88px;
+      margin-top: -23px
+   }
     
    
 }
+
+
+
+
+
+
+
 
 
 
