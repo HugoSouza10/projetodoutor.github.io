@@ -9,20 +9,6 @@ body{
 
 
 
-/*ANIMAÇÃO DO FORMULÁRIO*/
-@keyframes animacao{
-    0%{opacity: 0; margin-top: 0px;}
-
-}
-
-.animacao{
-    animation-name:animacao;
-    animation-duration: 2s;
-    position: absolute;/*SEMPRE PRECISA INFORMAR A POSIÇÃO SE NÃO NÃO FUNCIONA A ANAIMAÇÃO*/
-    animation-delay: 0s;/*AQUI SERVE PARA INICAR ANIMAÇÃO EM 2 SEGUNDOS*/
-    animation-iteration-count:1;/* AQUI SERVE PARA REPETIR A ANIMAÇÃO*/
-}
-
 
 
 /*ÁREA DE CABEÇALHO*/
