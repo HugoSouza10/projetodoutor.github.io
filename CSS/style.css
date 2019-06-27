@@ -781,23 +781,21 @@ span#medico_cadastrado{
     .barra {
         width: 47px;
     }
+
+    /*NUMEROS DOCWAY*/
     #Docway_Numero {
         margin-top: 159px;
         padding-bottom: 56px;
     }
 
-
-   .container_media2 img{
-         max-width: 163px;
-   }
+    .container_media2 img{
+        max-width: 164px;
+    }
 
     .container_nº2 h1{
         text-align: center;
     }
 
-    .container_media2 img {
-        width: 177px;
-    }
 
     /*AGENDE AGORA SUA CONSULTA*/
    #agendar{
