@@ -94,7 +94,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     color: white;
-    background-image:url("../_IMAGEM/banner.png");
+    background-image:url("../IMAGEM/banner.png");
     height:600px;
     background-size: cover;
     background-attachment:fixed; /*AQUI CRIA O EFEITO PARALAX*/
@@ -364,7 +364,7 @@ span#medico_cadastrado{
     justify-content: center;
     height: 500px;
     background-size: cover;
-    background-image: url('../_IMAGEM/Enfermeiro-3.jpg');
+    background-image: url('../IMAGEM/Enfermeiro-3.jpg');
     background-attachment: fixed;
     margin-top:-30px;
 }
