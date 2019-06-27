@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="pt-br">
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="CSS/.css">
+    <script type="text/javascript">
+        window.onload=function(){
+            document.querySelector(".Menu_Mobile").addEventListener ("click", function(){
+                if(document.querySelector(".Menu nav ul").style.display == 'flex'){
+                    document.querySelector(".Menu nav ul").style.display = 'none';
+
+                }else{
+                    document.querySelector(".Menu nav ul").style.display = 'flex';
+                }
+
+            });
+        };
+
+
+    </script>
+</head>
+<body>
+<header>
+    <div class="container_cabecalho">
+        <a href="">
+            <div class="logo">
+                <img src="_IMAGEM/logo-docway%20(1).png" width="160px" height="30px">
+            </div>
+            
+        </a>
+        <div class="Menu">
+        <nav>
+            <div class="Menu_Mobile"> <!-- ESSA DIV É PRA CRIAR A ESTRUTURA DO MENÚ-->
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+            </div>
+            <ul>
+                <li><a href=""> QUEM SOMOS</a></li>
+                <li><a href="">SERVIÇOS</a></li>
+                <li><a href="">DÚVIDAS FREQUENTES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTATO</a></li>
+                <li><a href="">TRABALHE CONOSCO</a></li>
+                <div class="logim_area">
+                <li><a href="">LOGIN</a></li>
+                <li><a href="">CADASTRO</a></li>
+                </div>
+
+            </ul>
+        </nav>
+    </div>
+    </div>
+</header>
+<div class="banner_cabecalho">
+    <div class="frase_banner">
+        <div class="frase_banner_texto">
+            Seja atendido onde estiver, quando quiser.
+            </div>
+            <form method="post" id="agendar">
+                <div class="infor_cadastro">
+                    <div class="Text_Local">CEP do local</div>
+                    <input type="text" name="Local" placeholder="00000-000">
+                </div>
+                <div class="infor_cadastro">
+                    <div class="Text_Local">Especialidade</div>
+                    <input type="text" name="Local" placeholder="Pediatria,Geriatria...">
+                </div>
+                <div class="infor_cadastro">
+                    <div class="Text_Local">Data de consulta</div>
+                    <input type="text" name="Local" placeholder="11/12/2019">
+                </div>
+                <div class="infor_cadastro">
+                    <div class="Text_Local">Horário de consulta</div>
+                    <input type="text" name="Local" placeholder="00000-000">
+                </div>
+                <div class="Botao_consultar infor_cadastro">
+                    <div class="marcar_consulta">
+                        <a href=""> AGENDAR </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+</div>
+<section id="como_funciona ">
+    <div class="container2 ">
+    <div class="Titulo">
+        <h1>COMO FUNCIONA</h1>
+    </div>
+        <div class="barra"></div>
+        <div class="container_3 ">
+        <div class="Imagem_computador">
+            <img src="_IMAGEM/computador%20e%20celular.png"width="560" height="341">
+        </div>
+        <div class="Texto">
+            <h1>Por que criamos o Docway?</h1>
+            <div class="Texto_info">
+                Docway é uma plataforma que leva o médico onde você estiver! Sem filas, sem burocracia, sem esperas.
+                Não perca mais tempo em pronto-atendimentos ou esperando por uma consulta com um especialista.
+                Você acessa a plataforma, escolhe a especialidade e faz o agendamento.
+                Com Docway, você também pode solicitar vacinas e coletas de exames.
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section id="Docway_Numero">
+    <div class="Container_Nº">
+        <div class="texto_numero">
+            <h1>Números Docway</h1>
+            <div class="barra"></div>
+        </div>
+        <div class="container_nº2">
+             <h1>
+                 <div class="numeros">
+                 <span>+</span> 250
+                 <span id="cidade">cidades contempladas</span>
+                 </div>
+             </h1>
+             <h1><span>+</span> 3.600
+             <span id="medico_cadastrado">cidades contempladas</span>
+             </h1>
+        </div>
+    </div>
+</section>
+<section id="Midia_Dcoway">
+    <div class="container_Midia">
+        <div class="titulo_media">
+        <h1>Números Docway</h1>
+            <div class="barra_midia"></div>
+            <div class="container_media2">
+                <div><img src="_IMAGEM/Exame.png"></div>
+                <div><img src="_IMAGEM/logo-band@2x.png"> </div>
+                <div><img src="_IMAGEM/logo-jp@2x.png"></div>
+                <div><img src="_IMAGEM/logo-olhar@2x.png"></div>
+                <div><img src="_IMAGEM/logo-mkt@2x.png"></div>
+                <div><img src="_IMAGEM/logo-globo@2x.png"></div>
+                <div><img src="_IMAGEM/logo-startse@2x.png"></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="consulta">
+    <div class="frase_banner">
+        <div class= "consulta_texto ">Agende agora sua consulta!</div>
+        <form method="post" id="agendar">
+            <div class="infor_cadastro">
+                <div class="Text_Local">CEP do local</div>
+                <input type="text" name="Local" placeholder="00000-000">
+            </div>
+            <div class="infor_cadastro">
+                <div class="Text_Local">Especialidade</div>
+                <input type="text" name="Local" placeholder="Pediatria,Geriatria...">
+            </div>
+            <div class="infor_cadastro">
+                <div class="Text_Local">Data de consulta</div>
+                <input type="text" name="Local" placeholder="11/12/2019">
+            </div>
+            <div class="infor_cadastro">
+                <div class="Text_Local">Horário de consulta</div>
+                <input type="text" name="Local" placeholder="00000-000">
+            </div>
+            <div class="Botao_consultar infor_cadastro">
+                <div class="marcar_consulta">
+                    <a href=""> AGENDAR </a>
+                </div>
+            </div>
+        </form>
+</section>
+
+<footer id="faca_parte">
+    <div class="Docway_foote_info">
+     <h1>QUER SER UM PROFISSIONAL DE SAÚDE DOCWAY? JUNTE-SE A NÓS!</h1>
+     <div class="docwya_texto_inf">
+         Após o envio de sua documentação, faremos uma criteriosa análise.
+         Se aprovado, você passará a receber consultas diretamente no seu celular!</br>
+         <span>Baixe agora nosso aplicativo para Médicos</span>
+         <div class="Imagem_info">
+         <img src="_IMAGEM/app-store.png" width="140" height="30">
+         <img src="_IMAGEM/google-play.png" width="140" height="30">
+         </div>
+     </div>
+    </div>
+    <div class="footer_cell">
+        <img src="_IMAGEM/img-hand-phone.png" width="400" height="370">
+    </div>
+</footer>
+<div class="black_footer">
+<div class="Footer_container">
+    <a href="">
+    <div class="footer_social">
+        <img src="_IMAGEM/Facebook-Icon-Grijs.png" width="30" height="30">
+        <img src="_IMAGEM/Instagran.png" width="30" height="30">
+    </div>
+    </a>
+    <div class="copyright">
+        <div class="copyright_texto"> DOCWAY @2016-2018. TODOS OS DIREITOS RESERVADOS.</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
